@@ -21,6 +21,7 @@
 		2F0FA42919B57C330019229D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0FA40B19B57C330019229D /* UIKit.framework */; };
 		2F0FA43119B57C330019229D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F0FA42F19B57C330019229D /* InfoPlist.strings */; };
 		2F0FA43319B57C330019229D /* Property_List_SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FA43219B57C330019229D /* Property_List_SampleTests.m */; };
+		2F0FA43D19B57C8E0019229D /* Test.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F0FA43C19B57C8E0019229D /* Test.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		2F0FA42E19B57C330019229D /* Property List SampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List SampleTests-Info.plist"; sourceTree = "<group>"; };
 		2F0FA43019B57C330019229D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2F0FA43219B57C330019229D /* Property_List_SampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Property_List_SampleTests.m; sourceTree = "<group>"; };
+		2F0FA43C19B57C8E0019229D /* Test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Test.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				2F0FA41619B57C330019229D /* plistAppDelegate.h */,
 				2F0FA41719B57C330019229D /* plistAppDelegate.m */,
 				2F0FA41919B57C330019229D /* Main.storyboard */,
+				2F0FA43C19B57C8E0019229D /* Test.plist */,
 				2F0FA41C19B57C330019229D /* plistViewController.h */,
 				2F0FA41D19B57C330019229D /* plistViewController.m */,
 				2F0FA41F19B57C330019229D /* Images.xcassets */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F0FA43D19B57C8E0019229D /* Test.plist in Resources */,
 				2F0FA42019B57C330019229D /* Images.xcassets in Resources */,
 				2F0FA41219B57C330019229D /* InfoPlist.strings in Resources */,
 				2F0FA41B19B57C330019229D /* Main.storyboard in Resources */,
@@ -457,6 +461,7 @@
 				2F0FA43819B57C330019229D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F0FA43919B57C330019229D /* Build configuration list for PBXNativeTarget "Property List SampleTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +470,7 @@
 				2F0FA43B19B57C330019229D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
